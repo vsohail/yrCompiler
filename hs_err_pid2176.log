@@ -1,0 +1,79 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=2176, tid=1968
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_26-b03
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.1-b02 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000003ab800):  JavaThread "Unknown thread" [_thread_in_vm, id=1968, stack(0x0000000001ee0000,0x0000000001fe0000)]
+
+Stack: [0x0000000001ee0000,0x0000000001fe0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000003ab800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1968, stack(0x0000000001ee0000,0x0000000001fe0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x000007fb97de0000 - 0x000007fb97f9e000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007fb96bf0000 - 0x000007fb96d26000 	C:\Windows\system32\KERNEL32.DLL
+0x000007fb961b0000 - 0x000007fb962a3000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fb97280000 - 0x000007fb9735e000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fb97910000 - 0x000007fb97a5c000 	C:\Windows\system32\USER32.dll
+0x000007fb96a80000 - 0x000007fb96b25000 	C:\Windows\system32\msvcrt.dll
+0x000007fb97750000 - 0x000007fb97798000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fb97360000 - 0x000007fb974a0000 	C:\Windows\system32\RPCRT4.dll
+0x000007fb96670000 - 0x000007fb967b0000 	C:\Windows\system32\GDI32.dll
+0x000007fb97800000 - 0x000007fb97839000 	C:\Windows\system32\IMM32.DLL
+0x000007fb96540000 - 0x000007fb96655000 	C:\Windows\system32\MSCTF.dll
+0x000000006d7f0000 - 0x000000006dfa8000 	C:\Program Files\Java\jre6\bin\server\jvm.dll
+0x000007fb8b050000 - 0x000007fb8b070000 	C:\Windows\SYSTEM32\WINMM.dll
+0x000007fb8b010000 - 0x000007fb8b042000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x000000006d760000 - 0x000000006d76e000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x000000006d3b0000 - 0x000000006d3d7000 	C:\Program Files\Java\jre6\bin\java.dll
+0x000007fb96be0000 - 0x000007fb96be7000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d7b0000 - 0x000000006d7c2000 	C:\Program Files\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xmx2048m -Xmn1024m -Dfile.encoding=Cp1252 -Xbootclasspath:C:\adt-bundle-windows-x86_64-20130219\sdk\platforms\android-17\android.jar 
+java_command: com.example.yrcompiler.knkjnkj
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jre6\bin;C:\Program Files\Java\jdk1.6.0_26\bin
+USERNAME=Yashraj1992
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 4044896k(1893480k free), swap 8108128k(4166888k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.1-b02) for windows-amd64 JRE (1.6.0_26-b03), built on May  4 2011 07:15:24 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Sun Mar 24 20:37:21 2013
+elapsed time: 0 seconds
+
